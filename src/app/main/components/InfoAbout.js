@@ -50,7 +50,7 @@ const InfoAbout = () => {
             <p >1996.10.09</p>
             </div>
 
-            <div style={{ display: 'flex', alignItems: 'center', gap: '50px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '50px', marginTop:'-40px' }}>
               <div>
               <p>ADRESS</p>
               <div style={{ position: 'relative', top: '-12px', opacity: '0.6' }}>
@@ -65,6 +65,12 @@ const InfoAbout = () => {
          </div>
            </div>
               </div>
+              
+
+              <p style={{ marginTop: '35px' }}>EMAIL</p>
+           <div style={{ position: 'relative', top: '-12px', opacity: '0.6' }}>
+           <p>byby5546@NAVER.COM</p>
+         </div>
 
           </Item>
           <Item title="ABOUT">

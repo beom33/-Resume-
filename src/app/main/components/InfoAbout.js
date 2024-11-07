@@ -77,7 +77,7 @@ const InfoAbout = () => {
         </div>
 
          <div>
-         <p>PORTFOLIO</p>
+         <p>GitHub</p>
             <div style={{ position: 'relative', top: '-10px',  marginBottom: '-55px', opacity: '1.0' }}>
               <Image
                 src="/images/QR.jpg"

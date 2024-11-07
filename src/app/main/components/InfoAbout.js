@@ -3,6 +3,8 @@ import { Section } from 'react-fullpage';
 import ProfileImage from './ProfileImage';
 import styled from 'styled-components';
 import Item from './Item';
+import Image from 'next/image';
+
 
 const Wrapper = styled.div`
   padding-top: 51px;
@@ -50,7 +52,7 @@ const InfoAbout = () => {
             <p >1996.10.09</p>
             </div>
 
-            <div style={{ display: 'flex', alignItems: 'center', gap: '50px', marginTop:'-40px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '45px', marginTop:'-40px' }}>
               <div>
               <p>ADRESS</p>
               <div style={{ position: 'relative', top: '-12px', opacity: '0.6' }}>
@@ -66,13 +68,29 @@ const InfoAbout = () => {
            </div>
               </div>
               
-
-              <p style={{ marginTop: '35px' }}>EMAIL</p>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '100px', marginTop: '35px' }}>
+              <div>
+                <p>EMAIL</p>
            <div style={{ position: 'relative', top: '-12px', opacity: '0.6' }}>
            <p>byby5546@NAVER.COM</p>
          </div>
+        </div>
 
+         <div>
+         <p>PORTFOLIO</p>
+            <div style={{ position: 'relative', top: '-10px',  marginBottom: '-55px', opacity: '1.0' }}>
+              <Image
+                src="/images/QR.jpg"
+                alt="QR Code"
+                width={85}
+                height={85}
+              />
+            </div>
+            </div>
+            </div>
           </Item>
+
+          
           <Item title="ABOUT">
           <p>ABOUT 섹션에 표시될 내용입니다.</p>
           </Item>
